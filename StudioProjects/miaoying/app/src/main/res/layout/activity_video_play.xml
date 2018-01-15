@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <!--<ImageView-->
+    <!--android:id="@+id/iv_cover"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:scaleType="fitXY" />-->
+
+    <com.tencent.rtmp.ui.TXCloudVideoView
+        android:id="@+id/video_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"></com.tencent.rtmp.ui.TXCloudVideoView>
+
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/layout_size120"
+        android:layout_marginLeft="@dimen/layout_size120"
+        android:src="@mipmap/record_back"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/iv_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/layout_size120"
+        android:layout_marginRight="@dimen/layout_size120"
+        android:src="@mipmap/record_ok"
+        android:visibility="visible" />
+
+
+    <ImageView
+        android:id="@+id/iv_back_finish"
+        android:layout_width="@dimen/layout_size80"
+        android:layout_height="@dimen/layout_size88"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/layout_size12"
+        android:layout_marginTop="@dimen/layout_size30"
+        android:clickable="true"
+        android:scaleType="center"
+        android:src="@drawable/common_back" />
+
+
+    <ImageView
+        android:id="@+id/iv_pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/icon_video_pause"
+        android:visibility="gone" />
+
+</RelativeLayout>

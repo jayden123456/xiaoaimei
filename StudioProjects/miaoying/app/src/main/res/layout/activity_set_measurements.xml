@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/commonBg"
+    android:orientation="vertical">
+
+    <include layout="@layout/action_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_size64"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/layout_size20"
+            android:maxLength="3"
+            android:text="胸围"
+            android:textColor="@color/color333"
+            android:textSize="@dimen/text24" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/commonDevide" />
+
+    <EditText
+        android:id="@+id/et_chest"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_size90"
+        android:background="@color/commonWhite"
+        android:hint="请输入胸围"
+        android:inputType="number"
+        android:maxLength="3"
+        android:paddingLeft="@dimen/layout_size20"
+        android:textColor="@color/color333"
+        android:textColorHint="@color/colorBF"
+        android:textCursorDrawable="@null"
+        android:textSize="@dimen/text30" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/commonDevide" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_size64"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/layout_size20"
+            android:text="腰围"
+            android:textColor="@color/color333"
+            android:textSize="@dimen/text24" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/commonDevide" />
+
+    <EditText
+        android:id="@+id/et_waist"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_size90"
+        android:background="@color/commonWhite"
+        android:hint="请输入腰围"
+        android:inputType="number"
+        android:maxLength="3"
+        android:paddingLeft="@dimen/layout_size20"
+        android:textColor="@color/color333"
+        android:textColorHint="@color/colorBF"
+        android:textCursorDrawable="@null"
+        android:textSize="@dimen/text30" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/commonDevide" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_size64"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/layout_size20"
+            android:text="臀围"
+            android:textColor="@color/color333"
+            android:textSize="@dimen/text24" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/commonDevide" />
+
+    <EditText
+        android:id="@+id/et_nates"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_size90"
+        android:background="@color/commonWhite"
+        android:hint="请输入臀围"
+        android:inputType="number"
+        android:maxLength="3"
+        android:paddingLeft="@dimen/layout_size20"
+        android:textColor="@color/color333"
+        android:textColorHint="@color/colorBF"
+        android:textCursorDrawable="@null"
+        android:textSize="@dimen/text30" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/commonDevide" />
+</LinearLayout>

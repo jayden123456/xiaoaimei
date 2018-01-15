@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zhy="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/commonBg"
+    android:orientation="vertical">
+
+
+    <include layout="@layout/action_bar" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/commonDevide" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/commonWhite"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/layout_size30"
+                    android:layout_marginTop="@dimen/layout_size27"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="添加对该用户的印象标签"
+                        android:textColor="@color/color56"
+                        android:textSize="@dimen/text26" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="(最多选3个)"
+                        android:textColor="@color/color9A"
+                        android:textSize="@dimen/text26" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginLeft="@dimen/layout_size30"
+                    android:layout_marginRight="@dimen/layout_size30"
+                    android:layout_marginTop="@dimen/layout_size27"
+                    android:background="@color/commonDevide" />
+
+                <com.zhy.view.flowlayout.TagFlowLayout
+                    android:id="@+id/ftl_tags"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/layout_size30"
+                    android:layout_marginRight="@dimen/layout_size30"
+                    android:layout_marginTop="@dimen/layout_size27"
+                    zhy:max_select="3" />
+
+                <TextView
+                    android:id="@+id/tv_tag_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/layout_size30"
+                    android:text="当前选择1项"
+                    android:textColor="@color/color56"
+                    android:textSize="@dimen/text24" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/tv_finish"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/layout_size78"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/layout_size120"
+                android:layout_marginLeft="@dimen/layout_size35"
+                android:layout_marginRight="@dimen/layout_size35"
+                android:layout_marginTop="@dimen/layout_size100"
+                android:background="@drawable/common_unclick_login_button"
+                android:gravity="center"
+                android:text="确认提交"
+                android:textColor="@color/commonWhite"
+                android:textSize="@dimen/text28" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

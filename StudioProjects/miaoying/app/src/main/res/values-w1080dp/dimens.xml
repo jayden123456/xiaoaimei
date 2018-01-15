@@ -1,0 +1,89 @@
+<resources>
+    <!-- Example customization of dimensions originally defined in res/values/dimens.xml
+         (such as screen margins) for screens with more than 820dp of available width. This
+         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively). -->
+    <dimen name="layout_size120">40dp</dimen>
+    <dimen name="layout_size15">5dp</dimen>
+    <dimen name="layout_size18">6dp</dimen>
+    <dimen name="layout_size104">35dp</dimen>
+    <dimen name="layout_size520">173dp</dimen>
+    <dimen name="layout_size52">17.3dp</dimen>
+    <dimen name="layout_size180">60dp</dimen>
+    <dimen name="layout_size44">14.6dp</dimen>
+    <dimen name="layout_size550">183dp</dimen>
+    <dimen name="layout_size78">26dp</dimen>
+    <dimen name="layout_size50">17dp</dimen>
+    <dimen name="layout_size145">48dp</dimen>
+    <dimen name="layout_size40">13.3dp</dimen>
+    <dimen name="layout_size42">14dp</dimen>
+    <dimen name="layout_size37">12.3dp</dimen>
+    <dimen name="layout_size38">12.6dp</dimen>
+    <dimen name="layout_size55">18.3dp</dimen>
+    <dimen name="layout_size20">6.7dp</dimen>
+    <dimen name="layout_size88">29.3dp</dimen>
+    <dimen name="layout_size12">4dp</dimen>
+    <dimen name="layout_size35">11.7dp</dimen>
+    <dimen name="layout_size30">10dp</dimen>
+    <dimen name="layout_size84">28dp</dimen>
+    <dimen name="layout_size80">27dp</dimen>
+    <dimen name="layout_size10">3.3dp</dimen>
+    <dimen name="layout_size204">68dp</dimen>
+    <dimen name="layout_size100">33.3dp</dimen>
+    <dimen name="layout_size27">9dp</dimen>
+    <dimen name="layout_size4">1.3dp</dimen>
+    <dimen name="layout_size62">20.6dp</dimen>
+    <dimen name="layout_size60">20dp</dimen>
+    <dimen name="layout_size477">159dp</dimen>
+    <dimen name="layout_size419">139.7dp</dimen>
+    <dimen name="layout_size138">46dp</dimen>
+    <dimen name="layout_size140">46.7dp</dimen>
+    <dimen name="layout_size144">48dp</dimen>
+    <dimen name="layout_size64">21.3dp</dimen>
+    <dimen name="layout_size32">10.7dp</dimen>
+    <dimen name="layout_size160">53.3dp</dimen>
+    <dimen name="layout_size90">30dp</dimen>
+    <dimen name="layout_size258">86dp</dimen>
+    <dimen name="layout_size96">32dp</dimen>
+    <dimen name="layout_size114">38dp</dimen>
+    <dimen name="layout_size48">16dp</dimen>
+    <dimen name="layout_size70">23.3dp</dimen>
+    <dimen name="layout_size510">170dp</dimen>
+    <dimen name="layout_size480">160dp</dimen>
+    <dimen name="layout_size98">32.6dp</dimen>
+    <dimen name="layout_size290">96.6dp</dimen>
+    <dimen name="layout_size440">146.6dp</dimen>
+    <dimen name="layout_size24">8dp</dimen>
+    <dimen name="layout_size275">91.6dp</dimen>
+    <dimen name="layout_size146">48.6dp</dimen>
+    <dimen name="layout_size94">31.3dp</dimen>
+    <dimen name="layout_size200">66.6dp</dimen>
+    <dimen name="layout_size108">36dp</dimen>
+    <dimen name="layout_size16">5.3dp</dimen>
+    <dimen name="layout_size26">8.6dp</dimen>
+    <dimen name="layout_size22">7.3dp</dimen>
+    <dimen name="layout_size156">52dp</dimen>
+    <dimen name="layout_size8">2.6dp</dimen>
+    <dimen name="layout_size110">36.6dp</dimen>
+    <dimen name="layout_size190">83.3dp</dimen>
+    <dimen name="layout_size5">1.6dp</dimen>
+    <dimen name="layout_size456">152dp</dimen>
+    <dimen name="layout_size750">250dp</dimen>
+    <dimen name="layout_size66">22dp</dimen>
+    <dimen name="layout_size139">46.3dp</dimen>
+    <dimen name="layout_size342">114dp</dimen>
+    <dimen name="layout_size130">43.3dp</dimen>
+
+
+    <dimen name="text20">6.7sp</dimen>
+    <dimen name="text22">7.3sp</dimen>
+    <dimen name="text24">8sp</dimen>
+    <dimen name="text26">8.5sp</dimen>
+    <dimen name="text28">9sp</dimen>
+    <dimen name="text30">10sp</dimen>
+    <dimen name="text32">10.7sp</dimen>
+    <dimen name="text34">11.3sp</dimen>
+    <dimen name="text36">12sp</dimen>
+    <dimen name="text80">27.3sp</dimen>
+    <dimen name="text50">16.6sp</dimen>
+
+</resources>

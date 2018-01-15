@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_toast"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/layout_size20"
+        android:drawablePadding="@dimen/layout_size18"
+        android:drawableTop="@mipmap/icon_toast_success"
+        android:gravity="center"
+        android:text="我是一个吐司\n我是一个吐司"
+        android:textColor="@color/commonWhite"
+        android:textSize="@dimen/text28" />
+
+</LinearLayout>

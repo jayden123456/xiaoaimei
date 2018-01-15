@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/commonWhite"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/commonDevide" />
+
+    <RelativeLayout
+        android:id="@+id/rl_picture_album"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_size88">
+
+        <TextView
+            android:id="@+id/tv_picture_album"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="相册"
+            android:textColor="@color/color333"
+            android:textSize="@dimen/text28" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/commonDevide" />
+
+    <RelativeLayout
+        android:id="@+id/rl_photograph"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_size88">
+
+        <TextView
+            android:id="@+id/tv_photograph"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="拍照"
+            android:textColor="@color/color333"
+            android:textSize="@dimen/text28" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_size15"
+        android:background="@color/commonBg" />
+
+    <RelativeLayout
+        android:id="@+id/rl_cancle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_size88">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="取消"
+            android:textColor="@color/color333"
+            android:textSize="@dimen/text28" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/commonDevide" />
+
+</LinearLayout>

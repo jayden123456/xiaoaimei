@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commonutils/commonutils.iml" filepath="$PROJECT_DIR$/commonutils/commonutils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/galleryfinal/galleryfinal.iml" filepath="$PROJECT_DIR$/galleryfinal/galleryfinal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lubanlibrary/lubanlibrary.iml" filepath="$PROJECT_DIR$/lubanlibrary/lubanlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/miaoying.iml" filepath="$PROJECT_DIR$/miaoying.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nimuikit/nimuikit.iml" filepath="$PROJECT_DIR$/nimuikit/nimuikit.iml" />
+    </modules>
+  </component>
+</project>

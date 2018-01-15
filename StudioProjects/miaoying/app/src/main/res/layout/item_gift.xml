@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/layout_size180"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.yidan.xiaoaimei.ui.view.RoundAngleImageView
+        android:id="@+id/iv_gift"
+        android:layout_width="@dimen/layout_size100"
+        android:layout_height="@dimen/layout_size100"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/layout_size30"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/layout_size10"
+        android:text="花"
+        android:textColor="@color/color56"
+        android:textSize="@dimen/text24" />
+
+    <TextView
+        android:id="@+id/tv_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/layout_size10"
+        android:text="数量：10000"
+        android:textColor="@color/color9A"
+        android:textSize="@dimen/text20" />
+
+</LinearLayout>

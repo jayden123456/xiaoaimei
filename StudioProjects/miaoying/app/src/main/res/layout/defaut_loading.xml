@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <!--<com.lcodecore.tkrefreshlayout.Footer.LoadingView-->
+    <!--android:id="@+id/loadingview"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+
+
+    <ProgressBar
+        android:id="@+id/pb_loading"
+        android:layout_width="@dimen/layout_size50"
+        android:layout_height="@dimen/layout_size50" />
+
+    <TextView
+        android:id="@+id/loading_text"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/layout_size100"
+        android:layout_marginLeft="8dp"
+        android:gravity="center"
+        android:text="正在加载..."
+        android:textColor="@color/color9A"
+        android:textSize="14sp"
+        android:visibility="gone" />
+</LinearLayout>

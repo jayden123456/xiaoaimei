@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckBox xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cb_tag"
+    android:layout_width="@dimen/layout_size180"
+    android:layout_height="@dimen/layout_size64"
+    android:layout_marginBottom="@dimen/layout_size30"
+    android:layout_marginRight="@dimen/layout_size35"
+    android:background="@drawable/bg_moment_price"
+    android:button="@null"
+    android:gravity="center"
+    android:text="500金币"
+    android:textColor="@color/tag_text_selector"
+    android:textSize="@dimen/text28" />

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:alpha="0.9"
+    android:background="#FBFFFFFF">
+
+    <ImageView
+        android:id="@+id/iv_close"
+        android:layout_width="@dimen/layout_size88"
+        android:layout_height="@dimen/layout_size88"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/layout_size70"
+        android:scaleType="center"
+        android:src="@mipmap/publish_close" />
+
+    <LinearLayout
+        android:id="@+id/ll_publish"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/layout_size342"
+        android:layout_above="@+id/iv_close"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/layout_size160"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_publish_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/layout_size20"
+            android:drawableTop="@mipmap/publish_text"
+            android:gravity="center"
+            android:text="文字"
+            android:textColor="@color/color56"
+            android:textSize="@dimen/text24" />
+
+        <TextView
+            android:id="@+id/tv_publish_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_size60"
+            android:drawablePadding="@dimen/layout_size20"
+            android:drawableTop="@mipmap/publish_photo"
+            android:gravity="center"
+            android:text="照片"
+            android:textColor="@color/color56"
+            android:textSize="@dimen/text24" />
+
+        <TextView
+            android:id="@+id/tv_publish_voice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_size60"
+            android:drawablePadding="@dimen/layout_size20"
+            android:drawableTop="@mipmap/publish_voice"
+            android:gravity="center"
+            android:text="语音"
+            android:textColor="@color/color56"
+            android:textSize="@dimen/text24" />
+
+        <TextView
+            android:id="@+id/tv_publish_video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_size60"
+            android:drawablePadding="@dimen/layout_size20"
+            android:drawableTop="@mipmap/publish_video"
+            android:gravity="center"
+            android:text="视频"
+            android:textColor="@color/color56"
+            android:textSize="@dimen/text24" />
+
+    </LinearLayout>
+
+</RelativeLayout>

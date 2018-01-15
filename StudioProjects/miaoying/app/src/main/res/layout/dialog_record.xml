@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="#99000000"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="@dimen/layout_size258"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/layout_size10"
+        android:layout_marginTop="@dimen/layout_size35"
+        android:gravity="center_horizontal"
+        android:text="00:00"
+        android:textColor="@color/commonWhite"
+        android:textSize="@dimen/text36" />
+
+
+    <TextView
+        android:id="@+id/tv_bottom"
+        android:layout_width="@dimen/layout_size258"
+        android:layout_height="@dimen/layout_size70"
+        android:layout_alignParentBottom="true"
+        android:background="@color/commonRed"
+        android:gravity="center"
+        android:text="手指上滑，取消录音"
+        android:textColor="@color/commonWhite"
+        android:textSize="@dimen/text26" />
+
+</LinearLayout>

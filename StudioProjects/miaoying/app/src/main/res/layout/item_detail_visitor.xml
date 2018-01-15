@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/layout_size100"
+    android:layout_height="@dimen/layout_size100">
+
+    <com.yidan.xiaoaimei.ui.view.RoundAngleImageView
+        android:id="@+id/iv_item_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_album"
+    android:layout_width="@dimen/layout_size190"
+    android:layout_height="@dimen/layout_size190">
+
+    <com.yidan.xiaoaimei.ui.view.RoundAngleImageView
+        android:id="@+id/iv_item_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/iv_icon_video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/layout_size10"
+        android:layout_marginTop="@dimen/layout_size10"
+        android:src="@mipmap/icon_video"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

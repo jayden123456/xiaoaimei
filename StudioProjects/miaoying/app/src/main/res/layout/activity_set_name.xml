@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/commonBg"
+    android:orientation="vertical">
+
+    <include layout="@layout/action_bar" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_size90"
+        android:layout_marginLeft="@dimen/layout_size30"
+        android:layout_marginRight="@dimen/layout_size30"
+        android:layout_marginTop="@dimen/layout_size15"
+        android:background="@drawable/bg_common_edittext"
+        android:hint="修改昵称"
+        android:paddingLeft="@dimen/layout_size20"
+        android:textColor="@color/color333"
+        android:textColorHint="#FFBFBFBF"
+        android:textCursorDrawable="@null"
+        android:textSize="@dimen/text30" />
+
+</LinearLayout>

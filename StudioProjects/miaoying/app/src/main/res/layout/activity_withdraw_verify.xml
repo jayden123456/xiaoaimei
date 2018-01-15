@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/commonBg"
+    android:orientation="vertical">
+
+    <include layout="@layout/action_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/layout_size30"
+                android:layout_marginTop="@dimen/layout_size40"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="名字"
+                    android:textColor="@color/color333"
+                    android:textSize="@dimen/text26" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/layout_size26"
+                    android:text="*"
+                    android:textColor="@color/commonRed"
+                    android:textSize="@dimen/text30" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/et_name"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/layout_size90"
+                android:layout_marginLeft="@dimen/layout_size30"
+                android:layout_marginRight="@dimen/layout_size30"
+                android:layout_marginTop="@dimen/layout_size20"
+                android:background="@drawable/bg_wechat_input"
+                android:hint="真实的名字"
+                android:paddingLeft="@dimen/layout_size22"
+                android:textColor="@color/color333"
+                android:textColorHint="@color/color999"
+                android:textSize="@dimen/text30" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/layout_size30"
+                android:layout_marginTop="@dimen/layout_size40"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="身份证"
+                    android:textColor="@color/color333"
+                    android:textSize="@dimen/text26" />
+
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/et_identity_code"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/layout_size90"
+                android:layout_marginLeft="@dimen/layout_size30"
+                android:layout_marginRight="@dimen/layout_size30"
+                android:layout_marginTop="@dimen/layout_size20"
+                android:background="@drawable/bg_wechat_input"
+                android:digits="0123456789xyzXYZ"
+                android:hint="请填写身份证号码"
+                android:inputType="number"
+                android:maxLength="18"
+                android:paddingLeft="@dimen/layout_size22"
+                android:textColor="@color/color333"
+                android:textColorHint="@color/color999"
+                android:textSize="@dimen/text30" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/layout_size30"
+                android:layout_marginTop="@dimen/layout_size40"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="电话"
+                    android:textColor="@color/color333"
+                    android:textSize="@dimen/text26" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/layout_size26"
+                    android:text="*"
+                    android:textColor="@color/commonRed"
+                    android:textSize="@dimen/text30" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/et_phone"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/layout_size90"
+                android:layout_marginLeft="@dimen/layout_size30"
+                android:layout_marginRight="@dimen/layout_size30"
+                android:layout_marginTop="@dimen/layout_size20"
+                android:background="@drawable/bg_wechat_input"
+                android:hint="请填写电话"
+                android:inputType="number"
+                android:paddingLeft="@dimen/layout_size22"
+                android:textColor="@color/color333"
+                android:textColorHint="@color/color999"
+                android:textSize="@dimen/text30" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/layout_size90"
+                android:layout_marginLeft="@dimen/layout_size30"
+                android:layout_marginRight="@dimen/layout_size30"
+                android:layout_marginTop="@dimen/layout_size20"
+                android:background="@drawable/bg_wechat_input"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/et_verify_code"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/layout_size15"
+                    android:layout_weight="1"
+                    android:background="@color/commonWhite"
+                    android:hint="请填写验证码"
+                    android:inputType="number"
+                    android:maxLines="6"
+                    android:text=""
+                    android:textColor="@color/color333"
+                    android:textColorHint="@color/color999"
+                    android:textSize="@dimen/text30" />
+
+                <TextView
+                    android:id="@+id/tv_get_verifycode"
+                    android:layout_width="@dimen/layout_size156"
+                    android:layout_height="@dimen/layout_size44"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="@dimen/layout_size27"
+                    android:background="@drawable/common_red_button"
+                    android:gravity="center"
+                    android:text="获取验证码"
+                    android:textColor="@color/commonWhite"
+                    android:textSize="@dimen/text24" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/layout_size30"
+                android:layout_marginTop="@dimen/layout_size40"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="支付宝账号"
+                    android:textColor="@color/color333"
+                    android:textSize="@dimen/text26" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/layout_size26"
+                    android:text="*"
+                    android:textColor="@color/commonRed"
+                    android:textSize="@dimen/text30" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/et_alipay_code"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/layout_size90"
+                android:layout_marginLeft="@dimen/layout_size30"
+                android:layout_marginRight="@dimen/layout_size30"
+                android:layout_marginTop="@dimen/layout_size20"
+                android:background="@drawable/bg_wechat_input"
+                android:hint="请填写支付宝账号"
+                android:maxLength="18"
+                android:paddingLeft="@dimen/layout_size22"
+                android:textColor="@color/color333"
+                android:textColorHint="@color/color999"
+                android:textSize="@dimen/text30" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/layout_size64"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/layout_size24"
+                    android:src="@mipmap/icon_prompt" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/layout_size8"
+                    android:text="@string/agent_verify_remind"
+                    android:textColor="@color/color9A"
+                    android:textSize="@dimen/text22" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/tv_submit"
+                android:layout_width="@dimen/layout_size440"
+                android:layout_height="@dimen/layout_size70"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/layout_size100"
+                android:layout_marginTop="@dimen/layout_size48"
+                android:background="@drawable/common_red_button"
+                android:gravity="center"
+                android:text="提交资料"
+                android:textColor="@color/commonWhite"
+                android:textSize="@dimen/text30" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

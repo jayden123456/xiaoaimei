@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_common_card"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/layout_size24"
+        android:layout_marginTop="@dimen/layout_size40"
+        android:drawableLeft="@mipmap/icon_detail_basic_info"
+        android:drawablePadding="@dimen/layout_size20"
+        android:text="基本信息"
+        android:textColor="@color/color56"
+        android:textSize="@dimen/text30" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/layout_size26"
+        android:layout_marginTop="@dimen/layout_size30"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_detail_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID:"
+            android:textColor="@color/color9A"
+            android:textSize="@dimen/text28" />
+
+        <TextView
+            android:id="@+id/tv_detail_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_size60"
+            android:drawableLeft="@mipmap/icon_detail_personal_location"
+            android:drawablePadding="@dimen/layout_size10"
+            android:text="火星"
+            android:textColor="@color/color9A"
+            android:textSize="@dimen/text28" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_detail_fans_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/layout_size26"
+        android:layout_marginTop="@dimen/layout_size16"
+        android:text="粉丝数："
+        android:textColor="@color/color9A"
+        android:textSize="@dimen/text28" />
+
+    <TextView
+        android:id="@+id/tv_detail_sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/layout_size26"
+        android:layout_marginTop="@dimen/layout_size16"
+        android:text="签名："
+        android:textColor="@color/color9A"
+        android:textSize="@dimen/text28" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_margin="@dimen/layout_size26"
+        android:background="@color/commonDevide" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/layout_size24"
+        android:drawableLeft="@mipmap/icon_detail_personalinfo"
+        android:drawablePadding="@dimen/layout_size20"
+        android:text="个人信息"
+        android:textColor="@color/color56"
+        android:textSize="@dimen/text30" />
+
+    <TextView
+        android:id="@+id/tv_detail_personal_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/layout_size26"
+        android:layout_marginTop="@dimen/layout_size30"
+        android:lineSpacingExtra="@dimen/layout_size16"
+        android:textColor="@color/color9A"
+        android:textSize="@dimen/text28" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_margin="@dimen/layout_size26"
+        android:background="@color/commonDevide" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/layout_size24"
+        android:drawableLeft="@mipmap/icon_detail_tag"
+        android:drawablePadding="@dimen/layout_size20"
+        android:text="标签"
+        android:textColor="@color/color56"
+        android:textSize="@dimen/text30" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/layout_size26"
+        android:layout_marginTop="@dimen/layout_size30"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_detail_tag1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_home_tag"
+            android:paddingBottom="@dimen/layout_size5"
+            android:paddingLeft="@dimen/layout_size16"
+            android:paddingRight="@dimen/layout_size16"
+            android:paddingTop="@dimen/layout_size5"
+            android:text="标签"
+            android:textColor="@color/color9A"
+            android:textSize="@dimen/text24" />
+
+        <TextView
+            android:id="@+id/tv_detail_tag2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_size20"
+            android:background="@drawable/bg_home_tag"
+            android:paddingBottom="@dimen/layout_size5"
+            android:paddingLeft="@dimen/layout_size16"
+            android:paddingRight="@dimen/layout_size16"
+            android:paddingTop="@dimen/layout_size5"
+            android:text="标签"
+            android:textColor="@color/color9A"
+            android:textSize="@dimen/text24" />
+
+        <TextView
+            android:id="@+id/tv_detail_tag3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_size20"
+            android:background="@drawable/bg_home_tag"
+            android:paddingBottom="@dimen/layout_size5"
+            android:paddingLeft="@dimen/layout_size16"
+            android:paddingRight="@dimen/layout_size16"
+            android:paddingTop="@dimen/layout_size5"
+            android:text="标签"
+            android:textColor="@color/color9A"
+            android:textSize="@dimen/text24" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_margin="@dimen/layout_size26"
+        android:background="@color/commonDevide" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/layout_size24"
+        android:drawableLeft="@mipmap/icon_detail_user_comment"
+        android:drawablePadding="@dimen/layout_size20"
+        android:text="用户评价"
+        android:textColor="@color/color56"
+        android:textSize="@dimen/text30" />
+
+    <com.zhy.view.flowlayout.TagFlowLayout
+        android:id="@+id/ftl_comment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/layout_size26"
+        android:layout_marginRight="@dimen/layout_size26"
+        android:layout_marginTop="@dimen/layout_size30"
+        android:visibility="visible" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginBottom="@dimen/layout_size26"
+        android:layout_marginLeft="@dimen/layout_size26"
+        android:layout_marginRight="@dimen/layout_size26"
+        android:background="@color/commonDevide" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/layout_size24"
+        android:drawableLeft="@mipmap/icon_detail_gift"
+        android:drawablePadding="@dimen/layout_size20"
+        android:text="礼物列表"
+        android:textColor="@color/color56"
+        android:textSize="@dimen/text30" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_size30">
+
+        <LinearLayout
+            android:id="@+id/ll_gifts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/layout_size50"
+            android:src="@mipmap/icon_arrow_right" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_margin="@dimen/layout_size26"
+        android:background="@color/commonDevide" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/layout_size24"
+        android:drawableLeft="@mipmap/icon_detail_visitor"
+        android:drawablePadding="@dimen/layout_size20"
+        android:text="访客列表"
+        android:textColor="@color/color56"
+        android:textSize="@dimen/text30" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/layout_size30"
+        android:layout_marginTop="@dimen/layout_size30">
+
+        <LinearLayout
+            android:id="@+id/ll_visitor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"></LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/layout_size50"
+            android:src="@mipmap/icon_arrow_right" />
+    </RelativeLayout>
+
+</LinearLayout>

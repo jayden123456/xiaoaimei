@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tab_text"
+        android:layout_width="@dimen/layout_size139"
+        android:layout_height="@dimen/layout_size66"
+        android:background="@drawable/bg_home_tablayout_item"
+        android:gravity="center"
+        android:text="资料"
+        android:textColor="@color/tablayout_text_selector"
+        android:textSize="@dimen/text34" />
+</LinearLayout>

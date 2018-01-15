@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="translate">#00000000</color>
+
+    <color name="commonRed">#FF2C55</color>
+    <color name="commonRedClick">#FC6E6C</color>
+    <color name="commonRedUnClick">#FF8DA3</color>
+
+    <color name="mine_money_get">#FACE15</color>
+    <color name="mine_money_left">#25A32C</color>
+    <color name="mine_money_pay">#00BFFF</color>
+
+    <color name="income_num">#FF7119</color>
+    <color name="income_money">#2AAF30</color>
+
+    <color name="commonWhite">#FFFFFF</color>
+    <color name="gray">#cccccc</color>
+    <color name="commonBg">#F3F3F3</color>
+
+    <color name="toastBg">#99000000</color>
+
+    <color name="color333">#333333</color>
+    <color name="color56">#565656</color>
+    <color name="color9A">#9A9A9A</color>
+    <color name="color999">#999999</color>
+    <color name="colorBF">#BFBFBF</color>
+    <color name="colorC1">#C1C1C1</color>
+    <color name="colorE6">#E6E6E6</color>
+    <color name="colorCD">#CDCDCD</color>
+    <color name="colorEF">#EFEFEF</color>
+
+    <color name="find_location">#7A90C7</color>
+
+
+    <color name="commonDevide">#F2F2F2</color>
+
+
+</resources>
